@@ -16,6 +16,15 @@ html {
   src: url("fonts/Caliste.ttf");
 }
 
+.background-img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/iStock-1182535626.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .bg-yellow{
 	background-color: #f0ecd5;
 }
@@ -150,4 +159,7 @@ font-style: italic;
 	object-fit: contain; 
 }
 
+.contact-link:hover{
+	font-size: 1.5rem !important;
+}
 
