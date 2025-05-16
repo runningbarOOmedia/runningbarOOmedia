@@ -1,0 +1,153 @@
+body, html {
+    height: 100%;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+html {
+	overflow-x: visible!important;
+	scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: testFont;
+  src: url("fonts/Caliste.ttf");
+}
+
+.bg-yellow{
+	background-color: #f0ecd5;
+}
+.bg-brown{
+	background-color: #562611;
+}
+.backgroundaccordionbody{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.backgroundaccordiontop{
+	background-color:#f0ecd5!important;
+}
+
+.no-underline{
+	text-decoration: none!important;
+}
+
+.opacity-white{opacity: 0.95 !important;
+}
+
+.text-blue{
+	color: #42495f;
+}
+
+.text-yellow{
+	color: #f0ecd5;
+}
+.text-brown{
+	color: #562611;
+}
+
+.med-font-size{
+	font-size: 3vw;
+}
+
+.l-font-size{
+	font-size: 5vw;
+}
+
+.xl-font-size{
+	font-size: 8vw;
+}
+
+.lg-tracking{
+	letter-spacing: 5px;
+}
+
+.cursive-font{
+	font-family: nautica, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.fancy-font{
+	font-family: testFont;
+}
+
+.body-font{
+	font-family: benton-modern-display, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.heading-font{
+	font-family: amandine, sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.heading-2x{
+font-family: amandine, sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.text-italics{
+	font-family: benton-modern-display, serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.border-bottom-blue{
+	border-bottom-style: solid;
+	border-bottom-width: thick;
+	border-bottom-color: #42495f;
+}
+
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.top-button{
+	border-style: solid;
+	border-width: thin;
+	border-color: #f0ecd5;
+	background-color: white;
+}
+.top-button:hover {
+	background-color: #f0ecd5;
+	color: black;
+}
+.wrap-image {
+   float: right;
+   margin: 0 0 10px 15px;
+}
+
+.img-cover{
+	object-fit: cover; 
+}
+
+.img-contain{
+	object-fit: contain; 
+}
+
+
